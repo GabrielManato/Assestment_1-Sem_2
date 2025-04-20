@@ -1,0 +1,62 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Main titles */
+  h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheadings */
+  h2 {
+    color: #000000;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  /* Paragraphs and lists */
+  p, ul, ol {
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  ul, ol {
+    padding-left: 40px;
+  }
+  
+  /* Code blocks */
+  pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    overflow-x: auto;
+    font-size: 0.95em;
+    border-radius: 4px;
+    margin: 10px auto;
+    max-width: 90%;
+  }
+  
+  code {
+    font-family: 'Courier New', monospace;
+    color: #c7254e;
+  }
+  
+  /* Links */
+  a {
+    color: #0947ba;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
